@@ -1,8 +1,22 @@
-.option{
-    font-size: 60px;
+
+.flex-container{
+    display:  flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    
 }
 
 .label-informacoes{
-    font-size: 30px;
+    min-width: 100%;
+}
+
+.input{
+
+}
+
+.texto{
+    display: grid;
+    place-items: center;
 }
 
