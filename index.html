@@ -12,7 +12,7 @@
         <input class="input" type="text" name="nome" required="true" id="nome" >
         <label for="email" class="label-informacoes"><span class="texto">Digite seu e-mail:</span></label>
         <input type="email" name="email" id="email">
-        <label for="senha" class="label-informacoes"><span class="texto">Digite sua senha:0</span></label>
+        <label for="senha" class="label-informacoes"><span class="texto">Digite sua senha:</span></label>
         <input type="password" name="senha" id="senha">
         <label for="mensagem" class="label-informacoes"><span class="texto">Mensagem:</span></label>
         <textarea id="mensagem"></textarea>
@@ -24,8 +24,10 @@
             <option class="option">entre outras</option>
         </select>
         <label class="label-informacoes"><span class="texto">Selecione seu sexo:</span>
-            <label><input type="radio" name="sexo" id="masculino"><span class="texto">Masculino</span></label>
-            <label><input type="radio"  name="sexo" id="feminino"><span class="texto">Feminino</span></label> 
+            <div class="flex-container">
+                <label><input type="radio" name="sexo" id="masculino">Masculino</label>
+                <label><input type="radio"  name="sexo" id="feminino">Feminino</label> 
+            </div>
         </label>    
         <input type="submit">
         <input type="reset">

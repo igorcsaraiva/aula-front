@@ -20,3 +20,8 @@
     place-items: center;
 }
 
+.input-radio{
+    display: grid;
+    place-items: center;
+}
+
